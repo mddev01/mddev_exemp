@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #0E1621;
+    margin-top: 50px;
+
+    height: 650px;
+}
+.header{
+    display: flex;
+}
+.form{
+    margin-right: 0;
+    padding-left: 0;
+}
+.icons{
+    width: 50px;
+    margin-top: 20px;
+}
+.icons button{
+    margin-bottom: 10px;
+}
+.my__icon{
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: red;
+}
+.my__icon1{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon2{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon3{    
+    border: 1px solid transparent;
+    background-color: transparent;
+    
+}
+.my__icon4{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon5{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.icon{
+    color: #768C9E;
+}
+.users{
+    background-color: #17212B;
+    flex-wrap: wrap;
+    height: 650px;
+    width: 300px;
+    padding-top: 20px;
+}
+.my__btn{
+    display: block;
+    width: 300px;
+    margin-left: -32px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    text-align: start;
+    padding-left: 20px;
+    
+}
+.my__btn:hover{
+    cursor: pointer;
+    background-color: #25303E;
+}
+.user__li{
+    color: #fff;
+    list-style-type: none;
+}
+.user__name{
+    color: #5F8091;
+    list-style-type: none;
+    margin: 0 0 10px 0;
+}
+.chats{
+    height: 650px;
+    overflow-x: hidden;
+}
+.chat{
+    list-style-type: none;
+    margin-left: 350px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    display: flex;
+    width: 400px;
+    background-color: #25303E;
+}
+li{
+    list-style-type: none;
+}
+
+::-webkit-scrollbar{
+    width: .4rem;
+}
+
+
+
+
+.tg__blue{
+    background-color: #2B5278;
+    margin-right: 20px;
+}
+
+
